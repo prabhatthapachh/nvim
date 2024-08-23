@@ -1,0 +1,7 @@
+return {
+    {
+
+        'rstacruz/vim-closer',
+    }
+
+}
