@@ -2,6 +2,14 @@ return {
     { -- Collection of various small independent plugins/modules
         'echasnovski/mini.nvim',
         config = function()
+            require("mini.basics").setup({
+				mappings = {
+					basic = true,
+					option_toggle_prefix = [[\]],
+					windows = false,
+					move_with_alt = false,
+				},
+			})
             -- Better Around/Inside textobjects
             --
             -- Examples:
